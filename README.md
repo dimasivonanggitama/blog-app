@@ -1,3 +1,12 @@
+v(F).(FU).(C).(CU)\
+F = Feature\
+&emsp;F = 1 = Home\
+FU = Feature Update\
+C = Component\
+&emsp;v1.(FU).1 = Header\
+&emsp;v1.(FU).2 = Search Bar\
+CU = Component Update
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +77,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
