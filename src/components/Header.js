@@ -2,8 +2,9 @@ import { Box, Button, Flex, Grid, Spacer, Stack } from '@chakra-ui/react'
 import React from 'react'
 import {useNavigate} from "react-router-dom"
 import Account from './button/account';
+import SearchBar from './SearchBar';
 
-const Navbar = () => { // assume this is register button/page
+const Header = () => { // assume this is register button/page
     const navigate = useNavigate();
     const toLoginPage = () => navigate("/login");
     const toRegisterPage = () => navigate("/register");
@@ -17,9 +18,9 @@ const Navbar = () => { // assume this is register button/page
                     </Box>
                 </Flex>
                 <Flex justifyContent="center" width={1/3}>
-                    <Box bgColor="orange" color="black" padding="5">
-                        <h1>This is Navbar</h1>
-                    </Box>
+                    {/* <Box bgColor="orange" color="black" padding="5"> */}
+                        <SearchBar/>
+                    {/* </Box> */}
                 </Flex>
                 <Flex justifyContent="flex-end" width={1/3}>
                     <Box>
@@ -33,4 +34,4 @@ const Navbar = () => { // assume this is register button/page
     );
 }
 
-export default Navbar
+export default Header
