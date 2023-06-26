@@ -1,10 +1,11 @@
-v(F).(FU).(C).(CU)
-F = Features
-  F = 1 = Home
-FU = Feature Updates
-C = component
-  C = 1 = Header
-CU = Component Updates
+v(F).(FU).(C).(CU)\
+F = Feature\
+&emsp;F = 1 = Home\
+FU = Feature Update\
+C = Component\
+&emsp;v1.(FU).1 = Header\
+&emsp;v1.(FU).2 = Search Bar\
+CU = Component Update
 
 # Getting Started with Create React App
 
