@@ -5,7 +5,7 @@ import React from 'react'
 const SearchBar = () => {
   return (
     <>
-        <InputGroup>
+        <InputGroup margin="auto">
             <InputLeftElement pointerEvents='none'>
                 <SearchIcon color='gray.300' />
             </InputLeftElement>
