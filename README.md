@@ -1,10 +1,11 @@
 v(F).(FU).(C).(CU)\
 F = Feature\
 &emsp;F = 1 = Home\
+&emsp;F = 2 = Navbar\
 FU = Feature Update\
 C = Component\
-&emsp;v1.(FU).1 = Header\
-&emsp;v1.(FU).2 = Search Bar\
+&emsp;v2.(FU).1 = Search Bar\
+&emsp;v2.(FU).2 = Login & Register Form Modal\
 CU = Component Update
 
 # Getting Started with Create React App
