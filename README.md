@@ -5,7 +5,9 @@ F = Feature\
 FU = Feature Update\
 C = Component\
 &emsp;v2.(FU).1 = Search Bar\
-&emsp;v2.(FU).2 = Login & Register Form Modal\
+&emsp;v2.(FU).2 = Login & Register Modal (Frame)\
+&emsp;v2.(FU).3 = Login Form Tab\
+&emsp;v2.(FU).4 = Register Form Tab\
 CU = Component Update
 
 # Getting Started with Create React App
