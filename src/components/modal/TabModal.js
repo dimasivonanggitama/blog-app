@@ -23,6 +23,7 @@ import { Formik, Form, Field, ErrorMessage, useFormik } from "formik";
 import * as Yup from "yup";
 import LoginForm from '../form/LoginForm';
 import Header from '../Header';
+import RegisterForm from '../form/RegisterForm';
 
 const TabModal = (props) => {
 
@@ -97,15 +98,7 @@ const TabModal = (props) => {
             </TabList>
             <TabPanels>
               <LoginForm />
-              <TabPanel bgGradient='linear(to-b, pink, white)'  borderBottomRadius={15}>
-                <ModalBody bg="white" borderRadius={15} padding={15} >
-                  <Input type="text" placeholder='Username' borderColor={"grey"} marginBottom={5}/>
-                  <Input type="email" placeholder='Email' borderColor={"grey"} marginBottom={5}/>
-                  <Input type="password" placeholder='Password' borderColor={"grey"} marginBottom={5}/>
-                  <Input type="password" placeholder='Konfirmasi password' borderColor={"grey"} marginBottom={5}/>
-                  <Input type="number" placeholder='Nomor telepon' borderColor={"grey"} />
-                </ModalBody>
-              </TabPanel>
+              <RegisterForm />
             </TabPanels>
           </Tabs>
         </ModalContent>
