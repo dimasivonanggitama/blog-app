@@ -1,6 +1,6 @@
 import { Avatar, useDisclosure } from '@chakra-ui/react'
 import React from 'react'
-import PresetModal from '../preset_modal'
+import TabModal from '../modal/TabModal'
 
 const Account = () => {
   const { isOpen, onOpen, onClose } = useDisclosure()
@@ -22,7 +22,7 @@ const Account = () => {
         }}
       />
 
-      <PresetModal isOpen={isOpen} /* onOpen={onOpen} */ onClose={onClose} />
+      <TabModal isOpen={isOpen} /* onOpen={onOpen} */ onClose={onClose} />
     </>
   )
 }
