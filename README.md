@@ -9,6 +9,7 @@ C = Component\
 &emsp;v2.(FU).3 = Login & Register Modal (Frame)\
 &emsp;v2.(FU).4 = Login Form Tab\
 &emsp;v2.(FU).5 = Register Form Tab\
+&emsp;v2.(FU).6 = Input With Error (Preset)\
 CU = Component Update
 
 # Getting Started with Create React App
