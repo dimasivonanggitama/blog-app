@@ -2,6 +2,7 @@ v(F).(FU).(C).(CU)\
 F = Feature\
 &emsp;F = 1 = Home\
 &emsp;F = 2 = Header (Current version: v2.2)\
+&emsp;F = 3 = Verification (Current version: v3.1)\
 FU = Feature Update\
 C = Component\
 &emsp;v2.(FU).1 = Search Bar\
