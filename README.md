@@ -1,6 +1,6 @@
 v(F).(FU).(C).(CU)\
 F = Feature\
-&emsp;F = 1 = Home\
+&emsp;F = 1 = Home (Current version: v1.3)\
 &emsp;F = 2 = Header (Current version: v2.2)\
 &emsp;F = 3 = Verification (Current version: v3.1)\
 FU = Feature Update\
