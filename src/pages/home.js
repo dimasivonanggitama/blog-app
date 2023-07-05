@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import { Box, Grid, GridItem, Text } from '@chakra-ui/react'
 import Content from '../components/Content'
+import CategoriesButton from '../components/button/CategoriesButton'
 
 
 const HomePage = () => {
@@ -33,7 +34,7 @@ const HomePage = () => {
         Carousel
       </GridItem>
       <GridItem pl='2' bg='yellow.300' area={'navbar'}>
-        Navbar
+        <CategoriesButton/>
       </GridItem>
       <GridItem pl='2' bg='green.300' area={'main'}>
         Main
