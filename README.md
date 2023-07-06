@@ -5,6 +5,7 @@ F = Feature\
 &emsp;F = 3 = Verification (Current version: v3.1)\
 FU = Feature Update\
 C = Component\
+&emsp;v1.(FU).1 = Categories\
 &emsp;v2.(FU).1 = Search Bar\
 &emsp;v2.(FU).2 = Account (Avatar) Button\
 &emsp;v2.(FU).3 = Login & Register Modal (Frame)\
