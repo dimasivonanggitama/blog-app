@@ -1,11 +1,12 @@
 v(F).(FU).(C).(CU)\
 F = Feature\
-&emsp;F = 1 = Home (Current version: v1.3)\
+&emsp;F = 1 = Home (Current version: v1.4)\
 &emsp;F = 2 = Header (Current version: v2.2)\
 &emsp;F = 3 = Verification (Current version: v3.1)\
 FU = Feature Update\
 C = Component\
 &emsp;v1.(FU).1 = Categories\
+&emsp;v1.(FU).2 = Small Card\
 &emsp;v2.(FU).1 = Search Bar\
 &emsp;v2.(FU).2 = Account (Avatar) Button\
 &emsp;v2.(FU).3 = Login & Register Modal (Frame)\
