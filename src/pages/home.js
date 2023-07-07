@@ -17,9 +17,9 @@ const HomePage = () => {
                       "leftMargin navbar rightMargin"
                       "leftMargin main rightMargin"
                       "footer footer footer"`}
-      gridTemplateRows={'0fr 1fr 1fr 1fr 30px'}
+      gridTemplateRows={'0fr 1fr 0fr calc(100vh) 0fr'}
       gridTemplateColumns={'5% 1fr 5%'}
-      h='500px'
+      // h='500px'
       gap='1'
       color='blackAlpha.700'
       fontWeight='bold'
@@ -37,7 +37,7 @@ const HomePage = () => {
         <CategoriesButton/>
       </GridItem>
       <GridItem pl='2' bg='green.300' area={'main'}>
-        Main
+        <Content/>
       </GridItem>
       <GridItem pl='2' bg='pink.300' area={'rightMargin'}>
        Right Margin
