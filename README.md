@@ -7,6 +7,7 @@ FU = Feature Update\
 C = Component\
 &emsp;v1.(FU).1 = Categories\
 &emsp;v1.(FU).2 = Small Card\
+&emsp;v1.(FU).3 = Pagination\
 &emsp;v2.(FU).1 = Search Bar\
 &emsp;v2.(FU).2 = Account (Avatar) Button\
 &emsp;v2.(FU).3 = Login & Register Modal (Frame)\
